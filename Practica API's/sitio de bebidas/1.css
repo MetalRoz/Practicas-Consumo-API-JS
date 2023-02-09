@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #230312 !important;
+}
+
+#pagina {
+    background: #230312;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.container-padre {
+    background: #1d000d;
+}
+
+.container {
+    padding: 10px 10px;
+}
+
+.icon {
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.nav {
+    font-size: 15px;
+}
+
+.icon .twit {
+    margin-right: 40px;
+}
+
+input {
+    width: 120px;
+    height: 36px;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.home a,
+.home a:hover {
+    background: #c52d2f;
+    border-radius: 5px;
+    color: white;
+}
+
+.api a:hover {
+    background: #c52d2f;
+    border-radius: 5px;
+    color: white;
+}
+
+.forum a:hover {
+    color: white;
+    background: #c52d2f;
+    border-radius: 5px;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}

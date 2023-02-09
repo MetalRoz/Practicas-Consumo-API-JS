@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: greenyellow;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+#pagina {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.cajas {
+    margin: 10px;
+    width: 300px;
+}

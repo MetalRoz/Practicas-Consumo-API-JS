@@ -1,0 +1,10 @@
+// consumir la api de cocteles y mostrar su imagen y titulo en el html
+
+Recuerda 
+
+1. usar el bucle for
+
+2. agregar clase a la imagen para asi ponerla mas pequeña mediante css 
+
+
+Cualquier pregunta escribanme chicos !!!
