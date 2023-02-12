@@ -10,11 +10,19 @@ body {
     background: #18142f !important;
 }
 
+.bodydia {
+    background: #fafafa !important;
+}
+
 header {
     background-color: #282248;
     display: flex;
     justify-content: space-between;
     padding: 25px 10px;
+}
+
+.headerdia {
+    background-color: white !important;
 }
 
 header ul {
@@ -32,6 +40,129 @@ header .nav li a {
     color: #c6c2dd;
     text-decoration: none;
 }
+
+header .navdia li a {
+    font-family: 'Asap', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+#logonoche {
+    display: block;
+}
+
+#logodia {
+    display: none;
+}
+
+input[type="checkbox"].ios8-switch {
+    position: absolute;
+    margin: 8px 0 0 16px;    
+}
+input[type="checkbox"].ios8-switch + label {
+    position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2.0em;
+}
+input[type="checkbox"].ios8-switch + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 40px; /* x*5 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 24px; /* x*3 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:hover:after {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch:checked + label:after {
+    margin-left: 16px;
+}
+input[type="checkbox"].ios8-switch:checked + label:before {
+    background: #3f1b83;
+}
+
+.checkbox {
+
+    margin-left: 30px;
+
+}
+/* SMALL */
+
+input[type="checkbox"].ios8-switch-sm {
+    margin: 5px 0 0 10px;
+}
+input[type="checkbox"].ios8-switch-sm + label {
+    position: relative;
+    padding: 0 0 0 32px;
+    line-height: 1.3em;
+}
+input[type="checkbox"].ios8-switch-sm + label:before {
+    width: 25px; /* x*5 */
+    height: 15px; /* x*3 */
+    border-radius: 10px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-sm + label:after {
+    width: 15px; /* x*3 */
+    height: 15px; /* x*3 */
+    border-radius: 10px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-sm + label:hover:after {
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch-sm:checked + label:after {
+    margin-left: 10px; /* x*2 */
+}
+
+/* LARGE */
+
+input[type="checkbox"].ios8-switch-lg {
+    margin: 10px 0 0 20px;
+}
+input[type="checkbox"].ios8-switch-lg + label {
+    position: relative;
+    padding: 7px 0 0 60px;
+    line-height: 2.3em;
+}
+input[type="checkbox"].ios8-switch-lg + label:before {
+    width: 50px; /* x*5 */
+    height: 30px; /* x*3 */
+    border-radius: 20px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-lg + label:after {
+    width: 30px; /* x*3 */
+    height: 30px; /* x*3 */
+    border-radius: 20px; /* x*2 */
+}
+input[type="checkbox"].ios8-switch-lg + label:hover:after {
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch-lg:checked + label:after {
+    margin-left: 20px; /* x*2 */
+}
+
+
+
 
 .fa-star {
     color: #fcd127;
@@ -62,6 +193,20 @@ header .nav li a {
     font-weight: 400;
     line-height: 1.5;
     color: #607D8B;
+}
+
+.buscar .form-control:focus-visible {
+    background-color: #18142f;
+    color: #7b7b7c;
+}
+
+.buscar .form-control2 {
+    background-color: transparent;
+}
+
+.buscar .form-control2:focus-visible {
+    background-color: transparent;
+    color: #7b7b7c;
 }
 
 .lupa {
@@ -109,6 +254,10 @@ header .nav li a {
     font-size: 30px;
 }
 
+.titulodia {
+    color: black !important;
+}
+
 .titulo .fa-solid {
     color: #37d1a2;
     padding-right: 13px;
@@ -131,6 +280,11 @@ header .nav li a {
     padding: 10px;
 }
 
+.asidedia {
+    background: white !important;
+    box-shadow: 1px 1px 10px #000000;
+}
+
 .cont {
     display: flex;
     flex-direction: column;
@@ -151,6 +305,15 @@ header .nav li a {
     padding: .375rem .75rem;
     font-size: 1rem;
     color: #7b7b7c;
+}
+
+.asidedia input, .asidedia label {
+    background-color: transparent;
+    color: black;
+}
+
+.asidedia select {
+    background-color: transparent;
 }
 
 .cont-range label {
@@ -193,8 +356,14 @@ header .nav li a {
     color: white;
 }
 
+.cajasdia p {
+
+    color: black;
+}
+
 .cajas img {
     width: 207px;
     height: 311px;
     padding-bottom: 10px;
+    border-radius: 5%;
 }
